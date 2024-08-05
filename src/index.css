@@ -1,4 +1,56 @@
-:root {
+body {
+  background-color: #fff;
+  margin: 0;
+  color: #333;
+}
+
+.content {
+  box-sizing: border-box;
+  background-color: #eee;
+  width: 80%;
+  max-width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 1rem;
+  min-height: 100vh;
+  line-height: 1.25rem;
+}
+
+a:link,
+a:visited {
+  color: #6666bb;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+li {
+  text-indent: 1rem;
+  padding-left: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+h4 {
+  font-size: 1.3rem;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 0.75rem;
+}
+
+summary {
+  margin-bottom: 0.5rem;
+}
+
+section {
+  margin-bottom: 1.5rem;
+}
+
+details {
+  margin-bottom: 1rem;
+}
+
+/* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -65,4 +117,4 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
-}
+} */
