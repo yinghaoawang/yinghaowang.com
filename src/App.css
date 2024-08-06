@@ -30,6 +30,30 @@
   position: fixed;
 }
 
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.custom-icon {
+  border-radius: 100%;
+  background-color: #fff;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.custom-icon:hover{ 
+  opacity: 60%;
+}
+
+.custom-icon.linkedin {
+  background-color: #0a66c2;
+}
+
 .home {
   height: 100vh;
   background-image: url('assets/wallpaper.gif');
