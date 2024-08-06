@@ -1,9 +1,12 @@
-import { useState } from 'react';
 import './App.css';
+import Navbar from './components/Navbar';
+import Home from './components/Home';
 
 function App() {
   return (
     <>
+      <Navbar />
+      <Home />
       <section>
         <h4>Projects in Progress</h4>
         <details>
@@ -172,8 +175,8 @@ function App() {
           </summary>
           <li>Users must create an account to access features.</li>
           <li>
-            Users can join channels, look at other channel member&apos;s profiles,
-            send channel messages, and discover new channels.
+            Users can join channels, look at other channel member&apos;s
+            profiles, send channel messages, and discover new channels.
           </li>
           <li>
             Users can search for other users, view their profiles, follow them,
