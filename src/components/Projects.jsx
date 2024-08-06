@@ -6,6 +6,13 @@ export default function Projects() {
           <h4>Projects in Progress</h4>
           <details>
             <summary>
+              <a href='https://yinghaowang.com'>Portfolio (2024)</a> - You&apos;re looking at this project right now!
+            </summary>
+            <li>My portfolio site.</li>
+            <li>Utilized: ReactJS</li>
+          </details>
+          <details>
+            <summary>
               <a href='https://spoti-free.com'>Spotifree (2024)</a> - Spotify
               for free and on the web
             </summary>
