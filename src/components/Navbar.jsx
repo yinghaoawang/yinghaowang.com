@@ -3,22 +3,22 @@ export default function Navbar() {
     <nav className='navbar'>
       <a className='nav-item' href='#home'>
         <img src='home.svg' />
-        <span>home</span>
+        <span>home.</span>
       </a>
 
       <a className='nav-item' href='#history'>
         <img src='cpu.svg' />
-        <span>history</span>
+        <span>exper.</span>
       </a>
 
       <a className='nav-item' href='#projects'>
         <img src='hdd.svg' />
-        <span>projects</span>
+        <span>projs.</span>
       </a>
 
       <a className='nav-item' href='#contact'>
         <img src='phone.svg' />
-        <span>contact</span>
+        <span>contact.</span>
       </a>
     </nav>
   );
