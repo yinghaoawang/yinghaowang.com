@@ -19,7 +19,7 @@
 }
 
 .home {
-  height: calc(100vh);
+  height: 100vh;
   background-image: url('assets/wallpaper.gif');
   background-position: center center;
   background-size: cover;
@@ -55,4 +55,15 @@
 
 .projects {
   line-height: 1.25rem;
+}
+
+.projects {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.inner-wrapper {
+  width: 1000px;
+  padding: 30px;
 }
