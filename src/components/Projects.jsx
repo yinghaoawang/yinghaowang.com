@@ -14,9 +14,11 @@ export default function Projects() {
           <details>
             <summary>
               <a href='https://spoti-free.com'>Spotifree (2024)</a> - Spotify
-              for free and on the web
+              for free and on the web.
             </summary>
             <li>A free Spotify clone.</li>
+            <li>View the most popular songs Spotifree users are playing on the top songs and top users page.</li>
+            <li>Frontend hosted on vercel, and backend hosted on my personal server (this website).</li>
             <li>Utilized: ReactJS, Youtube API, Express</li>
           </details>
         </section>
