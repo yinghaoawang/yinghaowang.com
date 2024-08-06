@@ -1,12 +1,12 @@
 export default function Construction() {
   return (
-    <div className='construction'>
+    <div id='contact' className='construction'>
       <div className='inner-wrapper'>
         <img width='200px' src='barrier.svg' />
         <div className='headline'>Under Construction</div>
         <div className='description'>
           <span>
-            Sorry about the mess, the site is current being worked on, but feel
+            Sorry about the mess. The site is current being worked on, but feel
             free to contact me!
           </span>
           <div className='social-icons' style={{ marginTop: '20px' }}>
