@@ -20,7 +20,7 @@
 
 .home {
   height: calc(100vh);
-  background-image: url('wallpaper.gif');
+  background-image: url('assets/wallpaper.gif');
   background-position: center center;
   background-size: cover;
 }
@@ -36,10 +36,23 @@
 
 .home .headline {
   font-size: 180px;
-  margin-bottom: 100px;
-  margin-top: 100px;
+  text-align: center;
 }
 
 .home .description {
   font-size: 30px;
+}
+
+@media (max-width: 1100px) {
+  .home .headline {
+    font-size: 80px;
+  }
+
+  .home .description {
+    font-size: 18px;
+  }
+}
+
+.projects {
+  line-height: 1.25rem;
 }

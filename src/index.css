@@ -10,7 +10,6 @@ body {
 .content {
   box-sizing: border-box;
   min-height: 100vh;
-  line-height: 1.25rem;
 }
 
 a:link,
