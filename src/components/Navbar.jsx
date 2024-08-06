@@ -1,25 +1,25 @@
 export default function Navbar() {
   return (
     <nav className='navbar'>
-      <div className='nav-item'>
+      <a className='nav-item' href='#home'>
         <img src='home.svg' />
         <span>home</span>
-      </div>
+      </a>
 
-      <div className='nav-item'>
+      <a className='nav-item' href='#history'>
         <img src='cpu.svg' />
-        <span>skills</span>
-      </div>
+        <span>history</span>
+      </a>
 
-      <div className='nav-item'>
+      <a className='nav-item' href='#projects'>
         <img src='hdd.svg' />
         <span>projects</span>
-      </div>
+      </a>
 
-      <div className='nav-item'>
+      <a className='nav-item' href='#contact'>
         <img src='phone.svg' />
         <span>contact</span>
-      </div>
+      </a>
     </nav>
   );
 }

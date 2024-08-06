@@ -1,6 +1,6 @@
 export default function Projects() {
   return (
-    <div className='projects'>
+    <div id='projects' className='projects'>
       <div className='inner-wrapper'>
         <div className='headline'>Projects</div>
         <section>
