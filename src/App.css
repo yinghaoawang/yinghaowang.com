@@ -56,11 +56,18 @@
   }
 }
 
-.projects {
+.projects .headline {
+  font-size: 80px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.projects > section {
   line-height: 1.25rem;
 }
 
-.projects, .construction {
+.projects,
+.construction {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -69,7 +76,19 @@
 .inner-wrapper {
   width: 900px;
   padding: 30px;
-  background-color: rgb(5, 5, 5);
+  /* background-color: rgb(5, 5, 5); */
+}
+
+@media (max-width: 400px) {
+  .inner-wrapper {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+.construction,
+.projects {
+  min-height: 100vh;
 }
 
 .construction .inner-wrapper {
@@ -81,7 +100,7 @@
 
 .construction .headline {
   text-align: center;
-  font-size: 60px;
+  font-size: 50px;
   line-height: 4rem;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -90,4 +109,5 @@
 .construction .description {
   width: 400px;
   text-align: center;
+  line-height: 1.8rem;
 }

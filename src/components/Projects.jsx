@@ -2,11 +2,13 @@ export default function Projects() {
   return (
     <div className='projects'>
       <div className='inner-wrapper'>
+        <div className='headline'>Projects</div>
         <section>
           <h4>Projects in Progress</h4>
           <details>
             <summary>
-              <a href='https://yinghaowang.com'>Portfolio (2024)</a> - You&apos;re looking at this project right now!
+              <a href='https://yinghaowang.com'>Portfolio (2024)</a> -
+              You&apos;re looking at this project right now!
             </summary>
             <li>My portfolio site.</li>
             <li>Utilized: ReactJS</li>
@@ -17,8 +19,14 @@ export default function Projects() {
               for free and on the web.
             </summary>
             <li>A free Spotify clone.</li>
-            <li>View the most popular songs Spotifree users are playing on the top songs and top users page.</li>
-            <li>Frontend hosted on vercel, and backend hosted on my personal server (this website).</li>
+            <li>
+              View the most popular songs Spotifree users are playing on the top
+              songs and top users page.
+            </li>
+            <li>
+              Frontend hosted on vercel, and backend hosted on my personal
+              server (this website).
+            </li>
             <li>Utilized: ReactJS, Youtube API, Express</li>
           </details>
         </section>
