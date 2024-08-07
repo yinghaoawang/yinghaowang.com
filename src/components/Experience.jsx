@@ -42,6 +42,13 @@ export default function Experience() {
             <div>Programming Tutor - Self Employed</div>
             <div>3/2024 - Present</div>
           </div>
+          <div className='entry'>
+            <div>
+              Your position - Your company (
+              <a href='#construction'>Contact me</a> if interested)
+            </div>
+            <div>???</div>
+          </div>
         </div>
       </div>
     </div>
