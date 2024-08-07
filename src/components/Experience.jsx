@@ -45,7 +45,7 @@ export default function Experience() {
           <div className='entry'>
             <div>
               Your position - Your company (
-              <a href='#construction'>Contact me</a> if interested)
+              <a href='#construction'>Contact me</a>)
             </div>
             <div>???</div>
           </div>
