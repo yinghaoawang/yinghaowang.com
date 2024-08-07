@@ -6,7 +6,7 @@ export default function Navbar() {
         <span>home.</span>
       </a>
 
-      <a className='nav-item' href='#history'>
+      <a className='nav-item' href='#experience'>
         <img src='cpu.svg' />
         <span>exper.</span>
       </a>
@@ -16,7 +16,7 @@ export default function Navbar() {
         <span>projs.</span>
       </a>
 
-      <a className='nav-item' href='#contact'>
+      <a className='nav-item' href='#construction'>
         <img src='phone.svg' />
         <span>contact.</span>
       </a>

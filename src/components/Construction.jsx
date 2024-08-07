@@ -1,6 +1,6 @@
 export default function Construction() {
   return (
-    <div id='contact' className='construction'>
+    <div id='construction'>
       <div className='inner-wrapper'>
         <img width='200px' src='barrier.svg' />
         <div className='headline'>Under Construction</div>

@@ -1,6 +1,6 @@
 export default function Home() {
   return (
-    <div id='home' className='home'>
+    <div id='home'>
       <div className='message'>
         <div className='headline'>
           <span>ALAN</span> <span>WANG</span>

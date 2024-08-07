@@ -46,7 +46,7 @@
   align-items: center;
 }
 
-.custom-icon:hover{ 
+.custom-icon:hover {
   opacity: 60%;
 }
 
@@ -54,14 +54,14 @@
   background-color: #0a66c2;
 }
 
-.home {
+#home {
   height: 100vh;
   background-image: url('assets/wallpaper.gif');
   background-position: center center;
   background-size: cover;
 }
 
-.home .message {
+#home .message {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -70,40 +70,43 @@
   height: 100%;
 }
 
-.home .headline {
+#home .headline {
   font-size: 180px;
   text-align: center;
 }
 
-.home .description {
+#home .description {
   font-size: 30px;
 }
 
 @media (max-width: 1100px) {
-  .home .headline {
+  #home .headline {
     font-size: 80px;
   }
 
-  .home .description {
+  #home .description {
     font-size: 18px;
   }
 }
 
-.projects .headline {
+#projects .headline,
+#experience .headline {
   font-size: 80px;
   margin-bottom: 40px;
 }
 
-.projects > section {
+#projects > section {
   line-height: 1.25rem;
 }
 
-.projects,
-.construction {
+#projects,
+#experience,
+#construction {
   width: 100%;
   display: flex;
   justify-content: center;
   padding-top: 80px;
+  min-height: 100vh;
 }
 
 .inner-wrapper {
@@ -120,19 +123,20 @@
   }
 }
 
-.construction,
-.projects {
-  min-height: 100vh;
+#projects li {
+  text-indent: 1rem;
+  padding-left: 1rem;
+  margin-bottom: 0.5rem;
 }
 
-.construction .inner-wrapper {
+#construction .inner-wrapper {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.construction .headline {
+#construction .headline {
   text-align: center;
   font-size: 50px;
   line-height: 4rem;
@@ -140,8 +144,26 @@
   margin-bottom: 10px;
 }
 
-.construction .description {
+#construction .description {
   width: 400px;
   text-align: center;
   line-height: 1.8rem;
+}
+
+#experience .section {
+  margin-bottom: 30px;
+}
+
+#experience .section-header {
+  font-size: 30px;
+}
+
+#experience .entry {
+  display: flex;
+  justify-content: space-between;
+}
+
+#experience ul {
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
