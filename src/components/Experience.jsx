@@ -44,7 +44,7 @@ export default function Experience() {
           </div>
           <div className='entry'>
             <div>Software Engineering Consultant - Self Employed</div>
-            <div>6/2020 - 2/2022</div>
+            <div>7/2020 - 2/2022</div>
           </div>
           <div className='entry'>
             <div>
