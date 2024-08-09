@@ -162,7 +162,14 @@
 #experience .entry {
   display: flex;
   justify-content: space-between;
+  gap: 20px;
   margin-bottom: 6px;
+}
+
+@media (max-width: 600px) {
+  #experience .entry > div:nth-child(2) {
+    width: 100px;
+  }
 }
 
 #experience ul {

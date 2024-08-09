@@ -27,10 +27,6 @@ export default function Experience() {
             <div>IT Support Apprenticeship - Climb Hire</div>
             <div>4/2024 - 9/2024</div>
           </div>
-          <div className='entry'>
-            <div>Software Engineer Volunteer - NCTTA</div>
-            <div>2/2022 - Present</div>
-          </div>
         </div>
         <div className='section'>
           <div className='section-header'>Work</div>
@@ -40,7 +36,15 @@ export default function Experience() {
           </div>
           <div className='entry'>
             <div>Programming Tutor - Self Employed</div>
-            <div>3/2024 - Present</div>
+            <div>3/2024 - 8/2024</div>
+          </div>
+          <div className='entry'>
+            <div>Software Engineer Volunteer - NCTTA</div>
+            <div>2/2022 - Present</div>
+          </div>
+          <div className='entry'>
+            <div>Software Engineering Consultant - Self Employed</div>
+            <div>6/2020 - 2/2022</div>
           </div>
           <div className='entry'>
             <div>
