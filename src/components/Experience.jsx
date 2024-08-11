@@ -29,7 +29,7 @@ export default function Experience() {
           </div>
         </div>
         <div className='section'>
-          <div className='section-header'>Work</div>
+          <div className='section-header'>Related Work</div>
           <div className='entry'>
             <div>Tech Support Contractor - Westside Animal Hospital</div>
             <div>6/2024 - 8/2024</div>
@@ -41,10 +41,6 @@ export default function Experience() {
           <div className='entry'>
             <div>Software Engineer Volunteer - NCTTA</div>
             <div>2/2022 - Present</div>
-          </div>
-          <div className='entry'>
-            <div>Software Engineering Consultant - Self Employed</div>
-            <div>7/2020 - 2/2022</div>
           </div>
           <div className='entry'>
             <div>
